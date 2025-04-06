@@ -87,6 +87,12 @@ Ensure you have the following installed:
 
 ---
 
+## Note 📝
+
+A hosted preview will be avaible soon. Stay tuned!
+
+---
+
 ## Credits 🙏
 
 - Layout inspired by [Adi Purdila](https://www.youtube.com/user/AdiPurdila)
