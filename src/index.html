@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>To-do app</title>
+		<link rel="stylesheet" href="output.css" />
+		<script src="script.js"></script>
+	</head>
+	<body class="bg-gray">
+		<main>
+			<div class="bg-dark-green p-5">
+				<h1 class="text-white text-3xl font-bold">Today</h1>
+				<form id="todo-form">
+					<input
+						type="text"
+						id="todo-input"
+						placeholder="e.g Buy groceries"
+						required
+						class="border border-green p-2 rounded bg-green w-full mb-5 mt-5 text-white"
+					/>
+					<button
+						type="submit"
+						class="w-full bg-orange text-white pt-3 pb-3 rounded-md font-semibold hover:bg-orange-dark transition duration-200 ease-in-out"
+					>
+						ADD TASK
+					</button>
+				</form>
+			</div>
+			<div class="p-5">
+				<div class="flex flex-row gap-3 mb-3">
+					<div class="flex items-center rounded-md overflow-hidden">
+						<p class="bg-dark-green text-white py-1 px-2">Total:</p>
+						<span id="total-todos" class="bg-blue p-1 text-white px-2"></span>
+					</div>
+					<div class="flex items-center rounded-md overflow-hidden">
+						<p class="bg-dark-green text-white py-1 px-2">Completed:</p>
+						<span
+							id="completed-todos"
+							class="bg-blue p-1 text-white px-2"
+						></span>
+					</div>
+				</div>
+				<ul id="todo-list"></ul>
+			</div>
+			<footer class="p-5 pt-">
+				<p>
+					Design by
+					<a
+						href="https://www.youtube.com/user/AdiPurdila"
+						class="text-blue-400 underline"
+						>Adi Purdilla</a
+					>
+				</p>
+			</footer>
+		</main>
+	</body>
+</html>
