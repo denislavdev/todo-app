@@ -1,6 +1,9 @@
 <div align="center">
   <h1>📝 To-Do App</h1>
   <p>A neat, minimal to-do list built with HTML, JavaScript, and <strong>TailwindCSS v4</strong></p>
+  <p>
+    <a href="https://todo-app-denislav.vercel.app" target="_blank">Preview: todo-app-denislav.vercel.app</a>
+  </p>
   <img src="https://img.shields.io/badge/TailwindCSS-v4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/Made%20with%20❤️-FF6F61?style=for-the-badge" />
@@ -86,10 +89,6 @@ Ensure you have the following installed:
    Open the `index.html` file in your browser. For a better development experience with live reload, consider using the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension.
 
 ---
-
-## Note 📝
-
-A hosted preview will be avaible soon. Stay tuned!
 
 ---
 
